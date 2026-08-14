@@ -5,8 +5,8 @@
 export const siteConfig = {
   // Business info
   businessName: "Dallas Excavation Co.",
-  phone: "(214) 555-0100",
-  phoneRaw: "2145550100",
+  phone: "(469) 224-5452",
+  phoneRaw: "4692245452",
 
   // Location
   city: "Dallas",
