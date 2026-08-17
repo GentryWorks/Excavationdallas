@@ -53,18 +53,18 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "How much does pool excavation cost in Dallas?",
+      name: "How much does pool excavation cost in Des Moines?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Pool excavation cost in Dallas depends on pool size, depth, soil conditions, and site access. Dallas-area soil is often clay-heavy, which slows digging and affects haul-off volume. We give you a written estimate after a site visit — no guessing, no surprises after the job starts.",
+        text: "Pool excavation cost in Des Moines depends on pool size, depth, soil conditions, and site access. Des Moines-area soil is often clay-heavy, which slows digging and affects haul-off volume. We give you a written estimate after a site visit — no guessing, no surprises after the job starts.",
       },
     },
     {
       "@type": "Question",
-      name: "How much does pool removal cost in Dallas?",
+      name: "How much does pool removal cost in Des Moines?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Pool demolition and removal in Dallas typically costs more than new pool excavation because it involves breaking up concrete or fiberglass, separating rebar, hauling off debris, backfilling, and compacting in lifts. Partial demolition (punching holes and abandoning the shell) costs less than full removal. We quote both options so you can decide what makes sense for your situation.",
+        text: "Pool demolition and removal in Des Moines typically costs more than new pool excavation because it involves breaking up concrete or fiberglass, separating rebar, hauling off debris, backfilling, and compacting in lifts. Partial demolition (punching holes and abandoning the shell) costs less than full removal. We quote both options so you can decide what makes sense for your situation.",
       },
     },
     {
@@ -93,10 +93,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Do I need a permit to remove a pool in Dallas?",
+      name: "Do I need a permit to remove a pool in Des Moines?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Most Dallas-area municipalities require a permit for pool removal, including Dallas County County, Parma, Lakewood, and Euclid. Requirements vary by city. We help navigate local permit requirements and coordinate with your contractor to keep the project moving.",
+        text: "Most Des Moines-area municipalities require a permit for pool removal, including Polk County, Ankeny, West Des Moines, and Urbandale. Requirements vary by city. We help navigate local permit requirements and coordinate with your contractor to keep the project moving.",
       },
     },
     {
@@ -154,12 +154,12 @@ const poolDemoIncluded = [
 
 const faqs = [
   {
-    q: "How much does pool excavation cost in Dallas?",
-    a: "Pool excavation cost in Dallas depends on pool size, depth, soil conditions, and site access. Dallas-area soil is often clay-heavy, which slows digging and affects haul-off volume. We give you a written estimate after a site visit — no guessing, no surprises after the job starts.",
+    q: "How much does pool excavation cost in Des Moines?",
+    a: "Pool excavation cost in Des Moines depends on pool size, depth, soil conditions, and site access. Des Moines-area soil is often clay-heavy, which slows digging and affects haul-off volume. We give you a written estimate after a site visit — no guessing, no surprises after the job starts.",
   },
   {
-    q: "How much does pool removal cost in Dallas?",
-    a: "Pool demolition and removal in Dallas typically costs more than new pool excavation because it involves breaking up concrete or fiberglass, separating rebar, hauling off debris, backfilling, and compacting in lifts. Partial demolition (punching holes and abandoning the shell) costs less than full removal. We quote both options so you can decide what makes sense for your situation.",
+    q: "How much does pool removal cost in Des Moines?",
+    a: "Pool demolition and removal in Des Moines typically costs more than new pool excavation because it involves breaking up concrete or fiberglass, separating rebar, hauling off debris, backfilling, and compacting in lifts. Partial demolition (punching holes and abandoning the shell) costs less than full removal. We quote both options so you can decide what makes sense for your situation.",
   },
   {
     q: "What is the difference between partial pool demolition and full pool removal?",
@@ -174,8 +174,8 @@ const faqs = [
     a: "Full pool demolition and removal typically takes 3 to 7 days. That includes breaking up the pool structure, separating and hauling off debris, backfilling the hole with clean fill material, compacting in lifts, and finish grading.",
   },
   {
-    q: "Do I need a permit to remove a pool in Dallas?",
-    a: "Most Dallas-area municipalities require a permit for pool removal, including Dallas County County, Parma, Lakewood, and Euclid. Requirements vary by city. We help navigate local permit requirements and coordinate with your contractor to keep the project moving.",
+    q: "Do I need a permit to remove a pool in Des Moines?",
+    a: "Most Des Moines-area municipalities require a permit for pool removal, including Polk County, Ankeny, West Des Moines, and Urbandale. Requirements vary by city. We help navigate local permit requirements and coordinate with your contractor to keep the project moving.",
   },
   {
     q: "What types of pools can you excavate or remove?",
@@ -199,7 +199,7 @@ export default function PoolExcavationPage() {
       <section className="relative py-28 md:py-40">
         <Image
           src={poolHeroImg}
-          alt="Pool excavation project in Dallas"
+          alt="Pool excavation project in Des Moines"
           fill
           fetchPriority="high"
           loading="eager"
@@ -211,7 +211,7 @@ export default function PoolExcavationPage() {
             Swimming Pool Excavation, Filling &amp; Demolition
           </h1>
           <p className="text-white opacity-90 text-lg max-w-2xl mb-10 leading-relaxed mx-auto">
-            Whether you&apos;re installing a new pool or removing an old one, trust Excavation Dallas Co. for expert pool excavation, demolition, and backfill services across Dallas and surrounding areas.
+            Whether you&apos;re installing a new pool or removing an old one, trust Des Moines Excavation Co. for expert pool excavation, demolition, and backfill services across Des Moines and surrounding areas.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link href={`tel:+1${siteConfig.phoneRaw}`} className="inline-block text-white font-bold px-8 py-4 rounded text-xl transition-opacity hover:opacity-90 border-2 border-white" style={{ backgroundColor: "#C4883A" }}>
@@ -227,15 +227,15 @@ export default function PoolExcavationPage() {
           <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="flex-1">
               <h2 className="text-2xl md:text-3xl font-extrabold mb-4" style={{ color: "#1B2A4A" }}>
-                Complete Pool Excavation, Removal, and Demo in the <span style={{ color: "#C4883A" }}>Greater Dallas Area</span>
+                Complete Pool Excavation, Removal, and Demo in the <span style={{ color: "#C4883A" }}>Greater Des Moines Area</span>
               </h2>
               <p className="text-base leading-relaxed" style={{ color: "#2D2D2D" }}>
-                Pool excavation in Dallas is more involved than it looks. Northeast Texas's clay soil affects how fast a pool can be dug, how much material needs to be hauled, and how backfill settles after pool removal. We handle both sides of the job — digging new inground pools to your builder&apos;s exact specs and demolishing old pools with proper backfill and compaction. Residential homeowners, pool builders, and general contractors across the Greater Dallas area count on us to show up on time and do the work right.
+                Pool excavation in Des Moines is more involved than it looks. Iowa&apos;s clay soil affects how fast a pool can be dug, how much material needs to be hauled, and how backfill settles after pool removal. We handle both sides of the job — digging new inground pools to your builder&apos;s exact specs and demolishing old pools with proper backfill and compaction. Residential homeowners, pool builders, and general contractors across the Greater Des Moines area count on us to show up on time and do the work right.
               </p>
             </div>
             <div className="flex-1">
               <div className="relative w-full rounded-xl overflow-hidden" style={{ aspectRatio: "4/3" }}>
-                <Image src={poolSectionImg} alt="Pool excavation project in Dallas" fill loading="lazy" style={{ objectFit: "cover", objectPosition: "center" }} />
+                <Image src={poolSectionImg} alt="Pool excavation project in Des Moines" fill loading="lazy" style={{ objectFit: "cover", objectPosition: "center" }} />
               </div>
             </div>
           </div>
@@ -258,7 +258,7 @@ export default function PoolExcavationPage() {
                 Every inground pool starts with a precise hole in the ground. Dig it wrong and your pool builder loses days resetting the layout or waiting on unstable walls. We dig to your builder&apos;s exact dimensions — length, width, depth, and shelf cuts — the first time.
               </p>
               <p className="text-sm leading-relaxed mb-4" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-                We excavate for concrete (gunite and shotcrete), fiberglass, and vinyl liner inground pools across Dallas and surrounding communities. We confirm dig specs directly with your pool builder before we ever put a bucket in the ground. Site access matters too — we assess gate widths, overhead clearances, and utility markings before mobilizing equipment.
+                We excavate for concrete (gunite and shotcrete), fiberglass, and vinyl liner inground pools across Des Moines and surrounding communities. We confirm dig specs directly with your pool builder before we ever put a bucket in the ground. Site access matters too — we assess gate widths, overhead clearances, and utility markings before mobilizing equipment.
               </p>
               <p className="text-sm leading-relaxed mb-4" style={{ color: "#2D2D2D", opacity: 0.85 }}>
                 Most new pool digs take <strong>1 to 3 days</strong>. All excavated material leaves your property in our dump trucks. After the pool shell is in and inspected, we return to backfill and grade the surrounding area.
@@ -312,7 +312,7 @@ export default function PoolExcavationPage() {
             Permits &amp; <span style={{ color: "#C4883A" }}>Compliance</span>
           </h2>
           <p className="text-sm leading-relaxed" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            Most Dallas-area cities require a permit for pool removal — including Dallas County County, Parma, Lakewood, Euclid, and Strongsville. Requirements differ by municipality, so don&apos;t assume what applied to a neighbor applies to you. We help you understand what&apos;s required and coordinate with your contractor so nothing holds up the project. For new pool excavation, permits are typically pulled by your pool builder. We work directly with them to make sure our dig aligns with the approved plans.
+            Most Des Moines-area cities require a permit for pool removal — including Polk County, Ankeny, West Des Moines, Urbandale, and Johnston. Requirements differ by municipality, so don&apos;t assume what applied to a neighbor applies to you. We help you understand what&apos;s required and coordinate with your contractor so nothing holds up the project. For new pool excavation, permits are typically pulled by your pool builder. We work directly with them to make sure our dig aligns with the approved plans.
           </p>
         </div>
       </section>
@@ -323,11 +323,11 @@ export default function PoolExcavationPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
             <div>
               <h2 className="text-2xl md:text-3xl font-extrabold mb-6" style={{ color: "#1B2A4A" }}>
-                Why Choose Excavation Dallas Co. for Your <span style={{ color: "#C4883A" }}>Pool Project?</span>
+                Why Choose Des Moines Excavation Co. for Your <span style={{ color: "#C4883A" }}>Pool Project?</span>
               </h2>
               <ul className="space-y-4">
                 {[
-                  "Experienced with Dallas-area clay soil and its impact on pool digs",
+                  "Experienced with Des Moines-area clay soil and its impact on pool digs",
                   "We dig to your pool builder\u2019s exact specs — not close, exact",
                   "Own our equipment — no subcontracting the excavation work",
                   "We haul all soil and debris off-site in our own dump trucks",
@@ -394,7 +394,7 @@ export default function PoolExcavationPage() {
             Pool Excavation &amp; Demolition <span style={{ color: "#C4883A" }}>Service Areas</span>
           </h2>
           <p className="text-base mb-8 max-w-xl mx-auto" style={{ color: "#2D2D2D", opacity: 0.7 }}>
-            We handle pool excavation and pool removal across Dallas and surrounding areas.
+            We handle pool excavation and pool removal across Des Moines and surrounding areas.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             {serviceAreas.map((city) => (

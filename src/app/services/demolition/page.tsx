@@ -57,7 +57,7 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "How much does house demolition cost in Dallas?",
+      name: "How much does house demolition cost in Des Moines?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Demolition costs depend on the size of the structure, foundation type, and how much concrete removal is involved. Smaller detached garages and sheds cost significantly less than a full house teardown. Request a free quote and we'll provide a written estimate with a full scope breakdown before any work begins.",
@@ -65,10 +65,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Do I need a permit to demolish a house in Dallas?",
+      name: "Do I need a permit to demolish a house in Des Moines?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. A demolition permit is required for any residential structure demolition in Dallas and Dallas County County. Surrounding municipalities like Parma, Lakewood, and Euclid have their own permit processes. We handle permit applications directly — you don't need to navigate that paperwork yourself.",
+        text: "Yes. A demolition permit is required for any residential structure demolition in Des Moines and Polk County. Surrounding municipalities like Ankeny, West Des Moines, and Urbandale have their own permit processes. We handle permit applications directly — you don't need to navigate that paperwork yourself.",
       },
     },
     {
@@ -76,7 +76,7 @@ const faqSchema = {
       name: "What happens to utilities before demolition begins?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "All utilities must be disconnected and confirmed before any demo work starts. We coordinate directly with Texas Edison, Dallas Water, and telecom providers to schedule and verify each disconnect. We do not begin demolition until every utility is confirmed off.",
+        text: "All utilities must be disconnected and confirmed before any demo work starts. We coordinate directly with MidAmerican Energy, Des Moines Water Works, and telecom providers to schedule and verify each disconnect. We do not begin demolition until every utility is confirmed off.",
       },
     },
     {
@@ -84,12 +84,12 @@ const faqSchema = {
       name: "Do you check for asbestos before demolishing a house?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Texas law requires asbestos and lead paint assessments before demolishing structures built before 1980. We refer clients to licensed environmental consultants for testing and abatement. We do not proceed with demo until hazardous materials have been properly cleared and documented.",
+        text: "Iowa law requires asbestos and lead paint assessments before demolishing structures built before 1980. We refer clients to licensed environmental consultants for testing and abatement. We do not proceed with demo until hazardous materials have been properly cleared and documented.",
       },
     },
     {
       "@type": "Question",
-      name: "How long does it take to demolish a house in Dallas?",
+      name: "How long does it take to demolish a house in Des Moines?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Most residential demolitions run two to four days from teardown through debris hauling and site cleanup. Larger structures, difficult access, or significant concrete removal can extend that timeline. We include a project timeline with every written estimate.",
@@ -121,23 +121,23 @@ const included = [
 
 const faqs = [
   {
-    q: "How much does house demolition cost in Dallas?",
+    q: "How much does house demolition cost in Des Moines?",
     a: "Demolition costs depend on the size of the structure, foundation type, and how much concrete removal is involved. Smaller detached garages and sheds cost significantly less than a full house teardown. Request a free quote and we&apos;ll provide a written estimate with a full scope breakdown before any work begins.",
   },
   {
-    q: "Do I need a permit to demolish a house in Dallas?",
-    a: "Yes. A demolition permit is required for any residential structure demolition in Dallas and Dallas County County. Surrounding municipalities like Parma, Lakewood, and Euclid have their own permit processes. We handle permit applications directly — you don&apos;t need to navigate that paperwork yourself.",
+    q: "Do I need a permit to demolish a house in Des Moines?",
+    a: "Yes. A demolition permit is required for any residential structure demolition in Des Moines and Polk County. Surrounding municipalities like Ankeny, West Des Moines, and Urbandale have their own permit processes. We handle permit applications directly — you don&apos;t need to navigate that paperwork yourself.",
   },
   {
     q: "What happens to utilities before demolition begins?",
-    a: "All utilities must be disconnected and confirmed before any demo work starts. We coordinate directly with Texas Edison, Dallas Water, and telecom providers to schedule and verify each disconnect. We do not begin demolition until every utility is confirmed off.",
+    a: "All utilities must be disconnected and confirmed before any demo work starts. We coordinate directly with MidAmerican Energy, Des Moines Water Works, and telecom providers to schedule and verify each disconnect. We do not begin demolition until every utility is confirmed off.",
   },
   {
     q: "Do you check for asbestos before demolishing a house?",
-    a: "Texas law requires asbestos and lead paint assessments before demolishing structures built before 1980. We refer clients to licensed environmental consultants for testing and abatement. We do not proceed with demo until hazardous materials have been properly cleared and documented.",
+    a: "Iowa law requires asbestos and lead paint assessments before demolishing structures built before 1980. We refer clients to licensed environmental consultants for testing and abatement. We do not proceed with demo until hazardous materials have been properly cleared and documented.",
   },
   {
-    q: "How long does it take to demolish a house in Dallas?",
+    q: "How long does it take to demolish a house in Des Moines?",
     a: "Most residential demolitions run two to four days from teardown through debris hauling and site cleanup. Larger structures, difficult access, or significant concrete removal can extend that timeline. We include a project timeline with every written estimate.",
   },
 ];
@@ -169,7 +169,7 @@ export default function DemolitionPage() {
             Residential Demolition
           </h1>
           <p className="text-white opacity-80 text-lg max-w-2xl mb-10 leading-relaxed mx-auto">
-            Permitted house demolition, garage teardowns, and interior demo for residential renovation projects across Dallas and surrounding areas. We handle permits, utility disconnects, hazardous material referrals, and site cleanup.
+            Permitted house demolition, garage teardowns, and interior demo for residential renovation projects across Des Moines and surrounding areas. We handle permits, utility disconnects, hazardous material referrals, and site cleanup.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link
@@ -188,20 +188,20 @@ export default function DemolitionPage() {
       <section className="py-20" style={{ backgroundColor: "#ffffff" }}>
         <div className="max-w-[800px] mx-auto px-6">
           <h2 className="text-2xl md:text-3xl font-extrabold mb-6" style={{ color: "#1B2A4A" }}>
-            Cleared Space for Bright Futures: Home Demolition in <span style={{ color: "#C4883A" }}>Greater Dallas</span>
+            Cleared Space for Bright Futures: Home Demolition in <span style={{ color: "#C4883A" }}>Greater Des Moines</span>
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            Tearing down a structure can feel like a massive undertaking, but it&apos;s often the very first step toward building something new. Whether you&apos;re a homeowner ready to clear space for your dream custom build or a developer prepping a lot for new construction, Excavation Dallas Co. handles the heavy lifting safely, legally, and efficiently.
+            Tearing down a structure can feel like a massive undertaking, but it&apos;s often the very first step toward building something new. Whether you&apos;re a homeowner ready to clear space for your dream custom build or a developer prepping a lot for new construction, Des Moines Excavation Co. handles the heavy lifting safely, legally, and efficiently.
           </p>
 
           <h2 className="text-2xl md:text-3xl font-extrabold mb-6 mt-10" style={{ color: "#1B2A4A" }}>
-            Serving the Greater <span style={{ color: "#C4883A" }}>Dallas</span> Metro Area
+            Serving the Greater <span style={{ color: "#C4883A" }}>Des Moines</span> Metro Area
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            Navigating the different permitting processes, regulations, and city codes across Dallas and Dallas County County — as well as surrounding municipalities — requires a local expert. Excavation Dallas Co. is fully licensed and insured to operate across the entire metro area.
+            Navigating the different permitting processes, regulations, and city codes across Des Moines and Polk County — as well as surrounding municipalities — requires a local expert. Des Moines Excavation Co. is fully licensed and insured to operate across the entire metro area.
           </p>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            We proudly bring our precision demolition services to your neighborhood, including Dallas, Parma, Lakewood, Euclid, Strongsville, Westlake, Mentor, Solon, Brunswick, and Medina.
+            We proudly bring our precision demolition services to your neighborhood, including Des Moines, Ankeny, West Des Moines, Urbandale, Johnston, Waukee, Clive, Altoona, Norwalk, Bondurant, and Indianola.
           </p>
 
           <h2 className="text-2xl md:text-3xl font-extrabold mb-6 mt-10" style={{ color: "#1B2A4A" }}>
@@ -229,19 +229,19 @@ export default function DemolitionPage() {
           </div>
 
           <h2 className="text-2xl md:text-3xl font-extrabold mb-6 mt-10" style={{ color: "#1B2A4A" }}>
-            Why Choose Excavation <span style={{ color: "#C4883A" }}>Dallas Co.?</span>
+            Why Choose Des Moines <span style={{ color: "#C4883A" }}>Excavation Co.?</span>
           </h2>
           <div className="space-y-4 mb-6">
             <div>
               <p className="text-sm font-bold mb-1" style={{ color: "#1B2A4A" }}>We Handle the Permit Headaches</p>
               <p className="text-sm leading-relaxed" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-                You shouldn&apos;t have to spend your mornings deciphering local permit laws or waiting in line at municipal offices. We manage the entire permitting process, ensuring your project is compliant with local codes across Dallas and surrounding municipalities.
+                You shouldn&apos;t have to spend your mornings deciphering local permit laws or waiting in line at municipal offices. We manage the entire permitting process, ensuring your project is compliant with local codes across Des Moines and surrounding municipalities.
               </p>
             </div>
             <div>
               <p className="text-sm font-bold mb-1" style={{ color: "#1B2A4A" }}>Responsible Cleanup and Disposal</p>
               <p className="text-sm leading-relaxed" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-                We care about the Dallas community, which means we care about responsible disposal. We don&apos;t just throw everything into a dump truck — we sort materials on-site to recycle concrete, wood, and metals whenever possible.
+                We care about the Des Moines community, which means we care about responsible disposal. We don&apos;t just throw everything into a dump truck — we sort materials on-site to recycle concrete, wood, and metals whenever possible.
               </p>
             </div>
             <div>
@@ -307,7 +307,7 @@ export default function DemolitionPage() {
             Residential Demolition <span style={{ color: "#C4883A" }}>Service Areas</span>
           </h2>
           <p className="text-base mb-8 max-w-xl mx-auto" style={{ color: "#2D2D2D", opacity: 0.7 }}>
-            We provide residential demolition services across Dallas and surrounding areas.
+            We provide residential demolition services across Des Moines and surrounding areas.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             {serviceAreas.map((city) => (
@@ -339,7 +339,7 @@ export default function DemolitionPage() {
               >
                 <Image
                   src={s.img}
-                  alt={`${s.name} in Dallas`}
+                  alt={`${s.name} in Des Moines`}
                   fill
                   loading="lazy"
                   style={{ objectFit: "cover" }}

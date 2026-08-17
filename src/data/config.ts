@@ -4,34 +4,34 @@
 
 export const siteConfig = {
   // Business info
-  businessName: "Dallas Excavation Co.",
-  phone: "(469) 224-5452",
-  phoneRaw: "4692245452",
+  businessName: "Des Moines Excavation Co.",
+  phone: "(515) 316-3896",
+  phoneRaw: "5153163896",
 
   // Location
-  city: "Dallas",
-  state: "Texas",
-  stateAbbr: "TX",
-  address: "Dallas, TX",
-  zip: "75201",
+  city: "Des Moines",
+  state: "Iowa",
+  stateAbbr: "IA",
+  address: "Des Moines, IA",
+  zip: "50309",
 
   // Service area — surrounding cities
   suburbs: [
-    "Plano",
-    "Irving",
-    "Garland",
-    "Mesquite",
-    "Carrollton",
-    "Richardson",
-    "Grand Prairie",
-    "McKinney",
-    "Frisco",
-    "Allen",
+    "Ankeny",
+    "West Des Moines",
+    "Urbandale",
+    "Johnston",
+    "Waukee",
+    "Clive",
+    "Altoona",
+    "Norwalk",
+    "Bondurant",
+    "Indianola",
   ],
 
   // Domain
-  domain: "excavationdallas.com",
-  url: "https://www.excavationdallas.com",
+  domain: "excavationdesmoines.com",
+  url: "https://www.excavationdesmoines.com",
 
   // Business hours
   hours: {
@@ -41,17 +41,17 @@ export const siteConfig = {
   },
 
   // GHL Form
-  ghlFormId: "r0KuVsGv7GaLE80fIMS4",
-  ghlFormUrl: "https://api.leadconnectorhq.com/widget/form/r0KuVsGv7GaLE80fIMS4",
+  ghlFormId: "zNTY9nLqIF3SI7icNSSH",
+  ghlFormUrl: "https://api.leadconnectorhq.com/widget/form/zNTY9nLqIF3SI7icNSSH",
 
-  // Analytics — leave empty string to disable
-  ga4Id: "G-1BLGS2BGPZ",
-  clarityId: "y29voczbr8",
+  // Analytics
+  ga4Id: "G-9T29SEYNT3",
+  clarityId: "y3vbkym4ao",
 
   // Social — replace when GBP and Facebook are created
   facebook: "",
   googleBusiness: "",
 
   // Meta defaults
-  titleSuffix: "Dallas Excavation Co.",
+  titleSuffix: "Des Moines Excavation Co.",
 };

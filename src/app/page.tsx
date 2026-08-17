@@ -72,15 +72,15 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "Do I need a permit for excavation work in Dallas?",
+      name: "Do I need a permit for excavation work in Des Moines?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Most excavation projects in Dallas require a permit through the City of Dallas Department of Construction and Inspections (SDCI). Demolition work requires its own permit as well. We guide you through what your specific project needs and handle demolition permits directly. For permits tied to a new build, we coordinate with your general contractor.",
+        text: "Most excavation projects in Des Moines require a permit through the City of Des Moines Development Services Department. Demolition work requires its own permit as well. We guide you through what your specific project needs and handle demolition permits directly. For permits tied to a new build, we coordinate with your general contractor.",
       },
     },
     {
       "@type": "Question",
-      name: "How do I find a reliable excavation contractor near me in Dallas?",
+      name: "How do I find a reliable excavation contractor near me in Des Moines?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Look for a contractor who is licensed and carries general liability insurance — and will provide a certificate of insurance (COI) before work starts. Ask whether they own their own equipment or subcontract the work out. A contractor who owns and operates their own fleet has more control over your timeline and quality. Always get a written quote before any work begins.",
@@ -88,10 +88,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "How long does residential excavation take in Dallas?",
+      name: "How long does residential excavation take in Des Moines?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A standard residential foundation dig typically takes one to three days depending on the size of the footprint and soil conditions. The Dallas area's glacial till and clay-heavy soils can slow things down compared to sandier ground, especially during the rainy season. Land clearing or larger sitework projects run longer — usually three to seven days. We give you a realistic timeline with every estimate.",
+        text: "A standard residential foundation dig typically takes one to three days depending on the size of the footprint and soil conditions. The Des Moines area's clay-heavy soils can slow things down compared to sandier ground, especially during wet spring conditions. Land clearing or larger sitework projects run longer — usually three to seven days. We give you a realistic timeline with every estimate.",
       },
     },
     {
@@ -104,15 +104,15 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Can you dig a pool in my backyard in Dallas?",
+      name: "Can you dig a pool in my backyard in Des Moines?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. We handle inground pool excavation for concrete, fiberglass, and vinyl liner pools throughout the Greater Dallas area. We coordinate directly with your pool builder, handle all soil hauling, and work within the access constraints of your yard. Before any dig, we verify underground utility locations through Texas 811.",
+        text: "Yes. We handle inground pool excavation for concrete, fiberglass, and vinyl liner pools throughout the Greater Des Moines area. We coordinate directly with your pool builder, handle all soil hauling, and work within the access constraints of your yard. Before any dig, we verify underground utility locations through Iowa 811.",
       },
     },
     {
       "@type": "Question",
-      name: "Are you licensed and insured for excavation and demolition in Texas?",
+      name: "Are you licensed and insured for excavation and demolition in Iowa?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Yes. We are fully licensed and carry general liability insurance. We can provide a certificate of insurance (COI) upon request before work begins. All demolition work is properly permitted through the appropriate local authority.",
@@ -170,27 +170,27 @@ const serviceAreas = [siteConfig.city, ...siteConfig.suburbs];
 
 const faqs = [
   {
-    q: "Do I need a permit for excavation work in Dallas?",
-    a: "Most excavation projects in Dallas require a permit through the City of Dallas Department of Construction and Inspections (SDCI). Demolition work requires its own permit as well. We guide you through what your specific project needs and handle demolition permits directly. For permits tied to a new build, we coordinate with your general contractor.",
+    q: "Do I need a permit for excavation work in Des Moines?",
+    a: "Most excavation projects in Des Moines require a permit through the City of Des Moines Development Services Department. Demolition work requires its own permit as well. We guide you through what your specific project needs and handle demolition permits directly. For permits tied to a new build, we coordinate with your general contractor.",
   },
   {
-    q: "How do I find a reliable excavation contractor near me in Dallas?",
+    q: "How do I find a reliable excavation contractor near me in Des Moines?",
     a: "Look for a contractor who is licensed and carries general liability insurance — and will provide a certificate of insurance (COI) before work starts. Ask whether they own their own equipment or subcontract the work out. A contractor who owns and operates their own fleet has more control over your timeline and quality. Always get a written quote before any work begins.",
   },
   {
-    q: "How long does residential excavation take in Dallas?",
-    a: "A standard residential foundation dig typically takes one to three days depending on the size of the footprint and soil conditions. The Dallas area's glacial till and clay-heavy soils can slow things down compared to sandier ground, especially during the rainy season. Land clearing or larger sitework projects run longer — usually three to seven days. We give you a realistic timeline with every estimate.",
+    q: "How long does residential excavation take in Des Moines?",
+    a: "A standard residential foundation dig typically takes one to three days depending on the size of the footprint and soil conditions. The Des Moines area's clay-heavy soils can slow things down compared to sandier ground, especially during Iowa's wet spring season. Land clearing or larger sitework projects run longer — usually three to seven days. We give you a realistic timeline with every estimate.",
   },
   {
     q: "What is the difference between excavation and grading?",
     a: "Excavation is the process of removing soil to create a hole or trench — like digging a foundation or a pool. Grading is the process of leveling and sloping the ground to a specific elevation. Most construction projects need both: excavation first to remove material, then grading to shape the site correctly before building begins.",
   },
   {
-    q: "Can you dig a pool in my backyard in Dallas?",
-    a: "Yes. We handle inground pool excavation for concrete, fiberglass, and vinyl liner pools throughout the Greater Dallas area. We coordinate directly with your pool builder, handle all soil hauling, and work within the access constraints of your yard. Before any dig, we verify underground utility locations through Texas 811.",
+    q: "Can you dig a pool in my backyard in Des Moines?",
+    a: "Yes. We handle inground pool excavation for concrete, fiberglass, and vinyl liner pools throughout the Greater Des Moines area. We coordinate directly with your pool builder, handle all soil hauling, and work within the access constraints of your yard. Before any dig, we verify underground utility locations through Iowa 811.",
   },
   {
-    q: "Are you licensed and insured for excavation and demolition in Texas?",
+    q: "Are you licensed and insured for excavation and demolition in Iowa?",
     a: "Yes. We are fully licensed and carry general liability insurance. We can provide a certificate of insurance (COI) upon request before work begins. All demolition work is properly permitted through the appropriate local authority.",
   },
 ];
@@ -214,7 +214,7 @@ export default function HomePage() {
         {/* Background image */}
         <Image
           src={heroImg}
-          alt="Excavation skid steer working on a job site in Dallas"
+          alt="Excavation skid steer working on a job site in Des Moines"
           fill
           fetchPriority="high"
           loading="eager"
@@ -239,7 +239,7 @@ export default function HomePage() {
 
           <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6">
             Excavating Company in{" "}
-            <span style={{ color: "#C4883A" }}>Dallas</span>
+            <span style={{ color: "#C4883A" }}>Des Moines</span>
           </h1>
 
           <p className="text-white text-lg mb-10 leading-relaxed max-w-2xl mx-auto" style={{ opacity: 0.85 }}>
@@ -277,10 +277,10 @@ export default function HomePage() {
               data-activation-value=""
               data-deactivation-type="neverDeactivate"
               data-deactivation-value=""
-              data-form-name="Excavating Company Dallas"
+              data-form-name="Excavating Company Des Moines"
               data-layout-iframe-id={`inline-${siteConfig.ghlFormId}`}
               data-form-id={siteConfig.ghlFormId}
-              title="Excavating Company Dallas"
+              title="Excavating Company Des Moines"
             />
           </div>
         </div>
@@ -328,13 +328,13 @@ export default function HomePage() {
                 We own and operate a full fleet — excavators, skid steers, bulldozers, and dump trucks. We match the machine to your project, not the other way around. That means no oversized equipment tearing up your yard, and no underpowered machines dragging out your timeline.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-                The Dallas area&apos;s glacial till and clay soils are denser and more water-saturated than most homeowners expect — especially during the long Pacific Northwest rainy season. Our crew knows how to read site conditions and adjust the plan before a problem becomes a delay. We bring that hands-on experience to every job, from a backyard pool dig in Bellevue to a full land clearing project in Dallas County.
+                The Des Moines area&apos;s clay-heavy soils can be dense and water-saturated — especially during Iowa&apos;s wet spring season. Our crew knows how to read site conditions and adjust the plan before a problem becomes a delay. We bring that hands-on experience to every job, from a backyard pool dig in West Des Moines to a full land clearing project in Polk County.
               </p>
             </div>
             <div className="flex-shrink-0 w-full md:w-[520px] relative rounded-xl overflow-hidden" style={{ aspectRatio: "4/3" }}>
               <Image
                 src={fleetImg}
-                alt="Excavation fleet equipment lineup in Dallas"
+                alt="Excavation fleet equipment lineup in Des Moines"
                 fill
                 loading="lazy"
                 style={{ objectFit: "cover", objectPosition: "center" }}
@@ -351,59 +351,59 @@ export default function HomePage() {
             className="text-3xl md:text-4xl font-extrabold text-center mb-4"
             style={{ color: "#1B2A4A" }}
           >
-            Excavation Services in Dallas, TX
+            Excavation Services in Des Moines, IA
           </h2>
           <p
             className="text-center text-base mb-16 max-w-xl mx-auto"
             style={{ color: "#2D2D2D", opacity: 0.7 }}
           >
             Full-service excavation and sitework for residential and commercial
-            projects across Dallas and the Greater Trinity River region.
+            projects across Des Moines and the Greater Central Iowa region.
           </p>
 
           <div className="flex flex-col gap-12">
             {[
               {
-                name: "Grading & Sitework Dallas, TX",
+                name: "Grading & Sitework Des Moines, IA",
                 slug: "grading",
                 img: cardGrading,
                 tagline: "Precision Ground Prep for Any Build",
-                description: "Our grading contractors in Dallas handle rough grading, finish grading, drainage correction, and building pad prep for residential and commercial sites across Dallas County and the greater Trinity River area. Proper sitework is the foundation every project depends on — and we get it right before anything else goes in the ground.",
+                description: "Our grading contractors in Des Moines handle rough grading, finish grading, drainage correction, and building pad prep for residential and commercial sites across Polk County and the greater Central Iowa region. Proper sitework is the foundation every project depends on — and we get it right before anything else goes in the ground.",
               },
               {
-                name: "Land Clearing Services Dallas",
+                name: "Land Clearing Services Des Moines",
                 slug: "land-clearing",
                 img: cardLandClearing,
                 tagline: "From Overgrown to Ready-to-Build",
-                description: "Our land clearing service in Dallas handles trees, brush, stumps, and debris of any size — from a single overgrown lot in Renton to multi-acre clearing in Dallas County. We leave the site graded and ready to build on, with all material hauled off-site.",
+                description: "Our land clearing service in Des Moines handles trees, brush, stumps, and debris of any size — from a single overgrown lot in Ankeny to multi-acre clearing in Polk County. We leave the site graded and ready to build on, with all material hauled off-site.",
               },
               {
-                name: "Gravel Driveway Installation Dallas",
+                name: "Gravel Driveway Installation Des Moines",
                 slug: "gravel-driveways",
                 img: cardGravel,
-                tagline: "Durable Driveways Built for the Pacific Northwest",
-                description: "We install gravel driveways in Dallas and surrounding areas built to handle Texas's wet winters and heavy rainfall. Every job includes proper excavation, base stone, drainage grading, and compaction — so your driveway holds up year after year without washing out or rutting.",
+                tagline: "Durable Driveways Built for Central Iowa",
+                description: "We install gravel driveways in Des Moines and surrounding areas built to handle Iowa's freeze-thaw cycles and spring rains. Every job includes proper excavation, base stone, drainage grading, and compaction — so your driveway holds up year after year without washing out or rutting.",
               },
               {
-                name: "Pool Excavation Dallas, TX",
+                name: "Pool Excavation Des Moines, IA",
                 slug: "pool-excavation",
                 img: cardPool,
                 tagline: "Accurate Digs That Keep Your Pool Project on Schedule",
-                description: "We provide pool excavation in Dallas and the Greater Trinity River area, working directly with pool contractors to deliver accurate, clean digs that stay on spec. Wrong dimensions or a soft bottom are expensive to fix after the shell goes in — we make sure that's never the issue.",
+                description: "We provide pool excavation in Des Moines and the Greater Central Iowa area, working directly with pool contractors to deliver accurate, clean digs that stay on spec. Wrong dimensions or a soft bottom are expensive to fix after the shell goes in — we make sure that's never the issue.",
               },
               {
-                name: "Residential Excavation Dallas",
+                name: "Residential Excavation Des Moines",
                 slug: "residential-excavation",
                 img: cardResExcavation,
                 tagline: "Foundation Digs, Utility Trenches, and More",
-                description: "Our residential excavation contractors in Dallas handle foundation digs, basement excavation, utility trenching, backfill, and compaction for homeowners and builders across King, Snohomish, and Pierce counties. We give your contractor a clean, properly prepped site to build from.",
+                description: "Our residential excavation contractors in Des Moines handle foundation digs, basement excavation, utility trenching, backfill, and compaction for homeowners and builders across Polk and surrounding counties. We give your contractor a clean, properly prepped site to build from.",
               },
               {
-                name: "Residential Demolition Dallas, TX",
+                name: "Residential Demolition Des Moines, IA",
                 slug: "demolition",
                 img: cardDemolition,
                 tagline: "Safe, Efficient Tear-Downs Done Right",
-                description: "Looking for a demolition contractor in Dallas? We handle residential demolition for garages, sheds, decks, and small structures across the Greater Dallas area. We disconnect utilities, take the structure down safely, haul everything off-site, and leave the footprint clean and ready for whatever comes next.",
+                description: "Looking for a demolition contractor in Des Moines? We handle residential demolition for garages, sheds, decks, and small structures across the Greater Des Moines area. We disconnect utilities, take the structure down safely, haul everything off-site, and leave the footprint clean and ready for whatever comes next.",
               },
             ].map((service, i) => (
               <div
@@ -418,7 +418,7 @@ export default function HomePage() {
                 >
                   <Image
                     src={service.img}
-                    alt={`${service.name} in Dallas`}
+                    alt={`${service.name} in Des Moines`}
                     fill
                     loading="lazy"
                     style={{ objectFit: "cover" }}
@@ -513,13 +513,13 @@ export default function HomePage() {
             className="text-3xl md:text-4xl font-extrabold text-center mb-4"
             style={{ color: "#1B2A4A" }}
           >
-            Serving Dallas &amp; Surrounding Areas
+            Serving Des Moines &amp; Surrounding Areas
           </h2>
           <p
             className="text-center text-base mb-10 max-w-xl mx-auto"
             style={{ color: "#2D2D2D", opacity: 0.7 }}
           >
-            We work across Greater Dallas and the Trinity River region — from the city
+            We work across Greater Des Moines and Central Iowa — from the city
             to the suburbs and beyond.
           </p>
 

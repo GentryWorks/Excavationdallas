@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/assets/logo-dallas-wide.webp";
+import logo from "@/assets/logo-desmoines-wide.webp";
 import { siteConfig } from "@/data/config";
 
 export default function Footer() {
@@ -14,7 +14,7 @@ export default function Footer() {
           <Link href="/" className="inline-block mb-4">
             <Image
               src={logo}
-              alt="Excavation Dallas Co."
+              alt="Des Moines Excavation Co."
               height={80}
               width={0}
               style={{ width: "auto", height: "80px" }}

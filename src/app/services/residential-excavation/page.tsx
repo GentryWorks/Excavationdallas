@@ -58,7 +58,7 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "How much does residential excavation cost in Dallas?",
+      name: "How much does residential excavation cost in Des Moines?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Residential excavation pricing depends on the type of work, dig depth, soil conditions, and how much material needs to be hauled. A foundation dig for a new home runs differently than utility trenching or a septic excavation. Every project gets a free on-site assessment and a written estimate before any work begins — no surprises.",
@@ -66,15 +66,15 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "How long does foundation excavation take for a new home in Dallas?",
+      name: "How long does foundation excavation take for a new home in Des Moines?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A standard residential foundation dig in the Dallas area typically takes one to three days. The timeline depends on the size of the footprint, required depth, and how much clay or hardpan we encounter. Dallas soils vary widely — some lots dig fast, others take longer. We give you a specific timeline with every written estimate.",
+        text: "A standard residential foundation dig in the Des Moines area typically takes one to three days. The timeline depends on the size of the footprint, required depth, and how much clay or hardpan we encounter. Des Moines soils vary widely — some lots dig fast, others take longer. We give you a specific timeline with every written estimate.",
       },
     },
     {
       "@type": "Question",
-      name: "Do I need a permit for residential excavation in Dallas?",
+      name: "Do I need a permit for residential excavation in Des Moines?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Permit requirements depend on the type of work and your municipality. Foundation excavation for new construction typically requires a building permit pulled by your general contractor or builder. Utility trench work may require separate permits from the city or utility provider. We work from your approved plans and permit set — the permit coordination is handled by your GC or directly with the city.",
@@ -130,15 +130,15 @@ const included = [
 
 const faqs = [
   {
-    q: "How much does residential excavation cost in Dallas?",
+    q: "How much does residential excavation cost in Des Moines?",
     a: "Residential excavation pricing depends on the type of work, dig depth, soil conditions, and how much material needs to be hauled. A foundation dig for a new home runs differently than utility trenching or a septic excavation. Every project gets a free on-site assessment and a written estimate before any work begins — no surprises.",
   },
   {
-    q: "How long does foundation excavation take for a new home in Dallas?",
-    a: "A standard residential foundation dig in the Dallas area typically takes one to three days. The timeline depends on the size of the footprint, required depth, and how much clay or hardpan we encounter. Dallas soils vary widely — some lots dig fast, others take longer. We give you a specific timeline with every written estimate.",
+    q: "How long does foundation excavation take for a new home in Des Moines?",
+    a: "A standard residential foundation dig in the Des Moines area typically takes one to three days. The timeline depends on the size of the footprint, required depth, and how much clay or hardpan we encounter. Des Moines soils vary widely — some lots dig fast, others take longer. We give you a specific timeline with every written estimate.",
   },
   {
-    q: "Do I need a permit for residential excavation in Dallas?",
+    q: "Do I need a permit for residential excavation in Des Moines?",
     a: "Permit requirements depend on the type of work and your municipality. Foundation excavation for new construction typically requires a building permit pulled by your general contractor or builder. Utility trench work may require separate permits from the city or utility provider. We work from your approved plans and permit set — the permit coordination is handled by your GC or directly with the city.",
   },
   {
@@ -182,7 +182,7 @@ export default function ResidentialExcavationPage() {
             Residential Excavation
           </h1>
           <p className="text-white opacity-80 text-lg max-w-2xl mb-10 leading-relaxed mx-auto">
-            Foundation digs, basement excavation, utility trenching, septic systems, and drainage work — handled right the first time. We serve Dallas and surrounding communities with licensed, insured residential earthwork crews and free written estimates.
+            Foundation digs, basement excavation, utility trenching, septic systems, and drainage work — handled right the first time. We serve Des Moines and surrounding communities with licensed, insured residential earthwork crews and free written estimates.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link
@@ -203,24 +203,24 @@ export default function ResidentialExcavationPage() {
           <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="flex-1">
               <h2 className="text-2xl md:text-3xl font-extrabold mb-4" style={{ color: "#1B2A4A" }}>
-                Reliable Residential Excavation Services for Your Home Projects in <span style={{ color: "#C4883A" }}>Dallas</span>
+                Reliable Residential Excavation Services for Your Home Projects in <span style={{ color: "#C4883A" }}>Des Moines</span>
               </h2>
               <p className="text-sm leading-relaxed mb-4" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-                Excavation Dallas Co. specializes in providing top-tier residential excavation services for homeowners throughout the Dallas area. Whether you&apos;re building a new home, adding an extension, or installing a backyard feature, our team has the expertise to handle every aspect of your project with precision and care.
+                Des Moines Excavation Co. specializes in providing top-tier residential excavation services for homeowners throughout the Des Moines area. Whether you&apos;re building a new home, adding an extension, or installing a backyard feature, our team has the expertise to handle every aspect of your project with precision and care.
               </p>
               <p className="text-sm leading-relaxed" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-                As Dallas continues to grow, so do the needs of residential property owners in both established neighborhoods and surrounding communities like Parma, Lakewood, Euclid, and Strongsville. At Excavation Dallas Co., we&apos;re committed to delivering exceptional excavation services, no matter the size or scope of the job.
+                As Des Moines continues to grow, so do the needs of residential property owners in both established neighborhoods and surrounding communities like Ankeny, West Des Moines, Urbandale, and Johnston. At Des Moines Excavation Co., we&apos;re committed to delivering exceptional excavation services, no matter the size or scope of the job.
               </p>
             </div>
             <div className="flex-1">
               <div className="relative w-full rounded-xl overflow-hidden" style={{ aspectRatio: "4/3" }}>
-                <Image src={sectionImg} alt="Residential excavation project in Dallas" fill loading="lazy" style={{ objectFit: "cover", objectPosition: "center" }} />
+                <Image src={sectionImg} alt="Residential excavation project in Des Moines" fill loading="lazy" style={{ objectFit: "cover", objectPosition: "center" }} />
               </div>
             </div>
           </div>
 
           <h2 className="text-2xl md:text-3xl font-extrabold mb-6 mt-10" style={{ color: "#1B2A4A" }}>
-            Why Choose Excavation Dallas Co. for <span style={{ color: "#C4883A" }}>Residential Excavation?</span>
+            Why Choose Des Moines Excavation Co. for <span style={{ color: "#C4883A" }}>Residential Excavation?</span>
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
             Your home is one of your most valuable investments, and proper excavation is crucial to ensure the success of your project. Here&apos;s why homeowners trust us:
@@ -229,7 +229,7 @@ export default function ResidentialExcavationPage() {
             {[
               { title: "Precision Work", desc: "We ensure every excavation job is completed accurately to meet your specifications and engineered plans." },
               { title: "Safety First", desc: "Our team follows strict safety protocols — including confirmed 811 utility locates — to protect your property and our crew." },
-              { title: "Experienced Team", desc: "With years of expertise in Northeast Texas soil conditions, we understand the unique challenges of residential projects." },
+              { title: "Experienced Team", desc: "With years of expertise in Central Iowa soil conditions, we understand the unique challenges of residential projects." },
               { title: "Customer Focus", desc: "We work closely with homeowners to ensure satisfaction from start to finish, with clear communication at every step." },
             ].map((item) => (
               <div key={item.title} className="flex items-start gap-3">
@@ -267,10 +267,10 @@ export default function ResidentialExcavationPage() {
           </div>
 
           <h2 className="text-2xl md:text-3xl font-extrabold mb-6 mt-10" style={{ color: "#1B2A4A" }}>
-            Serving <span style={{ color: "#C4883A" }}>Dallas</span> and Beyond
+            Serving <span style={{ color: "#C4883A" }}>Des Moines</span> and Beyond
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            Excavation Dallas Co. proudly serves homeowners across the Greater Dallas area, including suburban communities and rural properties throughout Northeast Texas. From Parma to Westlake, Mentor to Solon — no residential project is too big or small for our team. Request a free estimate to get started.
+            Des Moines Excavation Co. proudly serves homeowners across the Greater Des Moines area, including suburban communities and rural properties throughout Central Iowa. From Ankeny to Waukee, Clive to Norwalk — no residential project is too big or small for our team. Request a free estimate to get started.
           </p>
         </div>
       </section>
@@ -328,7 +328,7 @@ export default function ResidentialExcavationPage() {
             Residential Excavation <span style={{ color: "#C4883A" }}>Service Areas</span>
           </h2>
           <p className="text-base mb-8 max-w-xl mx-auto" style={{ color: "#2D2D2D", opacity: 0.7 }}>
-            We provide residential excavation services across Dallas and surrounding areas.
+            We provide residential excavation services across Des Moines and surrounding areas.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             {serviceAreas.map((city) => (
@@ -360,7 +360,7 @@ export default function ResidentialExcavationPage() {
               >
                 <Image
                   src={s.img}
-                  alt={`${s.name} in Dallas`}
+                  alt={`${s.name} in Des Moines`}
                   fill
                   loading="lazy"
                   style={{ objectFit: "cover" }}

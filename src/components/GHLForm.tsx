@@ -36,11 +36,11 @@ export default function GHLForm() {
         data-activation-value=""
         data-deactivation-type="neverDeactivate"
         data-deactivation-value=""
-        data-form-name="Excavating Company Dallas"
+        data-form-name="Excavating Company Des Moines"
         data-height="1074"
         data-layout-iframe-id={`inline-${siteConfig.ghlFormId}`}
         data-form-id={siteConfig.ghlFormId}
-        title="Excavating Company Dallas"
+        title="Excavating Company Des Moines"
         onLoad={() => setTimeout(() => setVisible(true), 800)}
       />
     </div>

@@ -24,7 +24,7 @@ const serviceSchema = {
   "@type": "Service",
   name: "Land Clearing",
   description:
-    `Tree removal, brush and shrub clearing, stump grinding, root ball removal, and debris hauling for residential and commercial sites across ${siteConfig.city} and Northeast Texas.`,
+    `Tree removal, brush and shrub clearing, stump grinding, root ball removal, and debris hauling for residential and commercial sites across ${siteConfig.city} and Central Iowa.`,
   provider: {
     "@type": "LocalBusiness",
     name: siteConfig.businessName,
@@ -58,7 +58,7 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "How much does land clearing cost in Dallas?",
+      name: "How much does land clearing cost in Des Moines?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Land clearing costs depend on lot size, tree density, and whether full stump and root ball removal is needed. Larger lots, dense woodland, and building-ready clearing cost more than basic brush removal. Request a free quote — we walk every site before providing a written estimate, no hourly surprises.",
@@ -82,7 +82,7 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "How long does it take to clear a residential lot in Dallas?",
+      name: "How long does it take to clear a residential lot in Des Moines?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "A standard residential lot — half an acre or less, moderately wooded — typically takes one to two days. Heavily wooded lots or larger acreage will take longer. We give you a timeline estimate when we walk the site, before any work starts.",
@@ -90,10 +90,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Do I need a permit to clear trees in Dallas?",
+      name: "Do I need a permit to clear trees in Des Moines?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Permit requirements vary by municipality. Some Dallas-area jurisdictions require tree removal permits or tree preservation plans depending on tree size and species. Parma, Lakewood, and Strongsville each have their own tree ordinances. We flag any known requirements for your area during the estimate.",
+        text: "Permit requirements vary by municipality. Some Des Moines-area jurisdictions require tree removal permits or tree preservation plans depending on tree size and species. Ankeny, West Des Moines, and Urbandale each have their own tree ordinances. We flag any known requirements for your area during the estimate.",
       },
     },
   ],
@@ -122,7 +122,7 @@ const included = [
 
 const faqs = [
   {
-    q: "How much does land clearing cost in Dallas?",
+    q: "How much does land clearing cost in Des Moines?",
     a: "Land clearing costs depend on lot size, tree density, and whether full stump and root ball removal is needed. Larger lots, dense woodland, and building-ready clearing cost more than basic brush removal. Request a free quote — we walk every site before providing a written estimate, no hourly surprises.",
   },
   {
@@ -134,12 +134,12 @@ const faqs = [
     a: "Stump removal is included in our land clearing work. We can grind stumps to grade or fully remove the stump and root ball — particularly important for areas under slabs, foundations, or driveways where wood rot can cause settling.",
   },
   {
-    q: "How long does it take to clear a residential lot in Dallas?",
+    q: "How long does it take to clear a residential lot in Des Moines?",
     a: "A standard residential lot — half an acre or less, moderately wooded — typically takes one to two days. Heavily wooded lots or larger acreage will take longer. We give you a timeline estimate when we walk the site, before any work starts.",
   },
   {
-    q: "Do I need a permit to clear trees in Dallas?",
-    a: "Permit requirements vary by municipality. Some Dallas-area jurisdictions require tree removal permits or tree preservation plans depending on tree size and species. Parma, Lakewood, and Strongsville each have their own tree ordinances. We flag any known requirements for your area during the estimate.",
+    q: "Do I need a permit to clear trees in Des Moines?",
+    a: "Permit requirements vary by municipality. Some Des Moines-area jurisdictions require tree removal permits or tree preservation plans depending on tree size and species. Ankeny, West Des Moines, and Urbandale each have their own tree ordinances. We flag any known requirements for your area during the estimate.",
   },
 ];
 
@@ -170,7 +170,7 @@ export default function LandClearingPage() {
             Land Clearing
           </h1>
           <p className="text-white opacity-80 text-lg max-w-2xl mb-10 leading-relaxed mx-auto">
-            Tree removal, brush clearing, stump grinding, and full debris hauling for residential and commercial sites. We handle land clearing in Dallas and across Northeast Texas — from single building lots to multi-acre development sites.
+            Tree removal, brush clearing, stump grinding, and full debris hauling for residential and commercial sites. We handle land clearing in Des Moines and across Central Iowa — from single building lots to multi-acre development sites.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link
@@ -194,15 +194,15 @@ export default function LandClearingPage() {
                 Fast &amp; Efficient Land Clearing for Your Next <span style={{ color: "#C4883A" }}>Construction Project</span>
               </h2>
               <p className="text-sm leading-relaxed mb-4" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-                Excavation Dallas Co. offers professional land clearing services for residential and commercial projects throughout the Dallas area. Whether you&apos;re preparing a lot for new construction, expanding your property, or clearing space for landscaping, we provide efficient and reliable solutions tailored to your project.
+                Des Moines Excavation Co. offers professional land clearing services for residential and commercial projects throughout the Des Moines area. Whether you&apos;re preparing a lot for new construction, expanding your property, or clearing space for landscaping, we provide efficient and reliable solutions tailored to your project.
               </p>
               <p className="text-sm leading-relaxed" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-                From densely wooded lots to smaller spaces in suburban or rural areas, we have the equipment and expertise to handle projects of all sizes. Serving communities across Northeast Texas — including Parma, Lakewood, Euclid, Strongsville, and beyond — Excavation Dallas Co. is your trusted partner for thorough and environmentally conscious land clearing.
+                From densely wooded lots to smaller spaces in suburban or rural areas, we have the equipment and expertise to handle projects of all sizes. Serving communities across Central Iowa — including Ankeny, West Des Moines, Urbandale, Johnston, and beyond — Des Moines Excavation Co. is your trusted partner for thorough and environmentally conscious land clearing.
               </p>
             </div>
             <div className="flex-1">
               <div className="relative w-full rounded-xl overflow-hidden" style={{ aspectRatio: "4/3" }}>
-                <Image src={sectionImg} alt="Land clearing project in Dallas" fill loading="lazy" style={{ objectFit: "cover", objectPosition: "center" }} />
+                <Image src={sectionImg} alt="Land clearing project in Des Moines" fill loading="lazy" style={{ objectFit: "cover", objectPosition: "center" }} />
               </div>
             </div>
           </div>
@@ -231,11 +231,11 @@ export default function LandClearingPage() {
           </div>
 
           <h2 className="text-2xl md:text-3xl font-extrabold mb-6 mt-10" style={{ color: "#1B2A4A" }}>
-            Why Choose Excavation <span style={{ color: "#C4883A" }}>Dallas Co.?</span>
+            Why Choose Des Moines <span style={{ color: "#C4883A" }}>Excavation Co.?</span>
           </h2>
           <div className="space-y-3 mb-6">
             {[
-              { title: "Versatile Solutions", desc: "We work on properties of all sizes, from urban lots to rural tracts of land across Northeast Texas." },
+              { title: "Versatile Solutions", desc: "We work on properties of all sizes, from urban lots to rural tracts of land across Central Iowa." },
               { title: "Eco-Friendly Practices", desc: "Whenever possible, we recycle and repurpose cleared materials to minimize waste." },
               { title: "Safety First", desc: "Our team follows strict safety measures to protect your property and the surrounding area." },
             ].map((item) => (
@@ -250,10 +250,10 @@ export default function LandClearingPage() {
           </div>
 
           <h2 className="text-2xl md:text-3xl font-extrabold mb-6 mt-10" style={{ color: "#1B2A4A" }}>
-            Serving <span style={{ color: "#C4883A" }}>Dallas</span> and Beyond
+            Serving <span style={{ color: "#C4883A" }}>Des Moines</span> and Beyond
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            Excavation Dallas Co. is proud to serve the Greater Dallas area, including growing neighborhoods and rural communities like Westlake, Mentor, Solon, Brunswick, and Medina. No matter where your property is located or the size of the job, we&apos;re equipped to handle your land clearing needs. Request a free estimate to get started.
+            Des Moines Excavation Co. is proud to serve the Greater Des Moines area, including growing neighborhoods and rural communities like Ankeny, West Des Moines, Urbandale, Johnston, Waukee, Clive, Altoona, Norwalk, Bondurant, and Indianola. No matter where your property is located or the size of the job, we&apos;re equipped to handle your land clearing needs. Request a free estimate to get started.
           </p>
         </div>
       </section>
@@ -311,7 +311,7 @@ export default function LandClearingPage() {
             Land Clearing <span style={{ color: "#C4883A" }}>Service Areas</span>
           </h2>
           <p className="text-base mb-8 max-w-xl mx-auto" style={{ color: "#2D2D2D", opacity: 0.7 }}>
-            We provide land clearing services across Dallas and surrounding areas.
+            We provide land clearing services across Des Moines and surrounding areas.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             {serviceAreas.map((city) => (
@@ -343,7 +343,7 @@ export default function LandClearingPage() {
               >
                 <Image
                   src={s.img}
-                  alt={`${s.name} in Dallas`}
+                  alt={`${s.name} in Des Moines`}
                   fill
                   loading="lazy"
                   style={{ objectFit: "cover" }}

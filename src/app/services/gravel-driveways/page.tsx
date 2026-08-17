@@ -57,7 +57,7 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "How much does gravel driveway installation cost in Dallas?",
+      name: "How much does gravel driveway installation cost in Des Moines?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Cost depends on the length and width of the driveway, how much excavation is needed, soil conditions, and whether a culvert is required at the road connection. New installs are typically priced by the linear foot or square footage. We provide a written estimate after a free site visit — no charge for the quote.",
@@ -65,26 +65,26 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Is a gravel driveway better than asphalt in Dallas?",
+      name: "Is a gravel driveway better than asphalt in Des Moines?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Gravel driveways cost less upfront and handle Northeast Texas's freeze-thaw cycles well — asphalt can crack and heave when ground moisture freezes beneath it. Gravel also drains better on Northeast Texas's clay soil. The tradeoff is that gravel needs periodic regrading and top-off, while asphalt is lower maintenance once it's down. For rural and semi-rural properties, longer driveways, or anyone watching upfront cost, gravel is usually the right call.",
+        text: "Gravel driveways cost less upfront and handle Iowa's freeze-thaw cycles well — asphalt can crack and heave when ground moisture freezes beneath it. Gravel also drains better on Iowa's clay soil. The tradeoff is that gravel needs periodic regrading and top-off, while asphalt is lower maintenance once it's down. For rural and semi-rural properties, longer driveways, or anyone watching upfront cost, gravel is usually the right call.",
       },
     },
     {
       "@type": "Question",
-      name: "What type of gravel is best for a driveway in Dallas?",
+      name: "What type of gravel is best for a driveway in Des Moines?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "For most Dallas driveways, a two-layer system works best: #2 crushed limestone as a compacted base for stability, topped with #57 or #8 crushed limestone as the driving surface. The right material depends on your soil, drainage, and traffic volume. We recommend what fits your specific site after we assess it.",
+        text: "For most Des Moines driveways, a two-layer system works best: #2 crushed limestone as a compacted base for stability, topped with #57 or #8 crushed limestone as the driving surface. The right material depends on your soil, drainage, and traffic volume. We recommend what fits your specific site after we assess it.",
       },
     },
     {
       "@type": "Question",
-      name: "Do I need a permit for a gravel driveway in Dallas?",
+      name: "Do I need a permit for a gravel driveway in Des Moines?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Gravel driveways typically don't require a building permit in Dallas. However, culvert installations at road connections often require a right-of-way permit from Dallas County County or your local municipality. We flag any permit requirements during the estimate so nothing surprises you later.",
+        text: "Gravel driveways typically don't require a building permit in Des Moines. However, culvert installations at road connections often require a right-of-way permit from Polk County or your local municipality. We flag any permit requirements during the estimate so nothing surprises you later.",
       },
     },
     {
@@ -121,20 +121,20 @@ const included = [
 
 const faqs = [
   {
-    q: "How much does gravel driveway installation cost in Dallas?",
+    q: "How much does gravel driveway installation cost in Des Moines?",
     a: "Cost depends on the length and width of the driveway, how much excavation is needed, soil conditions, and whether a culvert is required at the road connection. New installs are typically priced by the linear foot or square footage. We provide a written estimate after a free site visit — no charge for the quote.",
   },
   {
-    q: "Is a gravel driveway better than asphalt in Dallas?",
-    a: "Gravel driveways cost less upfront and handle Northeast Texas&apos;s freeze-thaw cycles well — asphalt can crack and heave when ground moisture freezes beneath it. Gravel also drains better on Northeast Texas&apos;s clay soil. The tradeoff is that gravel needs periodic regrading and top-off, while asphalt is lower maintenance once it&apos;s down. For rural and semi-rural properties, longer driveways, or anyone watching upfront cost, gravel is usually the right call.",
+    q: "Is a gravel driveway better than asphalt in Des Moines?",
+    a: "Gravel driveways cost less upfront and handle Iowa&apos;s freeze-thaw cycles well — asphalt can crack and heave when ground moisture freezes beneath it. Gravel also drains better on Iowa&apos;s clay soil. The tradeoff is that gravel needs periodic regrading and top-off, while asphalt is lower maintenance once it&apos;s down. For rural and semi-rural properties, longer driveways, or anyone watching upfront cost, gravel is usually the right call.",
   },
   {
-    q: "What type of gravel is best for a driveway in Dallas?",
-    a: "For most Dallas driveways, a two-layer system works best: #2 crushed limestone as a compacted base for stability, topped with #57 or #8 crushed limestone as the driving surface. The right material depends on your soil, drainage, and traffic volume. We recommend what fits your specific site after we assess it.",
+    q: "What type of gravel is best for a driveway in Des Moines?",
+    a: "For most Des Moines driveways, a two-layer system works best: #2 crushed limestone as a compacted base for stability, topped with #57 or #8 crushed limestone as the driving surface. The right material depends on your soil, drainage, and traffic volume. We recommend what fits your specific site after we assess it.",
   },
   {
-    q: "Do I need a permit for a gravel driveway in Dallas?",
-    a: "Gravel driveways typically don&apos;t require a building permit in Dallas. However, culvert installations at road connections often require a right-of-way permit from Dallas County County or your local municipality. We flag any permit requirements during the estimate so nothing surprises you later.",
+    q: "Do I need a permit for a gravel driveway in Des Moines?",
+    a: "Gravel driveways typically don&apos;t require a building permit in Des Moines. However, culvert installations at road connections often require a right-of-way permit from Polk County or your local municipality. We flag any permit requirements during the estimate so nothing surprises you later.",
   },
   {
     q: "How often does a gravel driveway need to be regraded?",
@@ -169,7 +169,7 @@ export default function GravelDrivewaysPage() {
             Gravel Driveways
           </h1>
           <p className="text-white opacity-80 text-lg max-w-2xl mb-10 leading-relaxed mx-auto">
-            A gravel driveway that&apos;s built right drains well, handles heavy vehicles, and lasts for years. We handle new installations, repairs, regrading, and gravel delivery across Dallas and the surrounding area.
+            A gravel driveway that&apos;s built right drains well, handles heavy vehicles, and lasts for years. We handle new installations, repairs, regrading, and gravel delivery across Des Moines and the surrounding area.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link
@@ -188,10 +188,10 @@ export default function GravelDrivewaysPage() {
       <section className="py-20" style={{ backgroundColor: "#ffffff" }}>
         <div className="max-w-[800px] mx-auto px-6">
           <h2 className="text-2xl md:text-3xl font-extrabold mb-6" style={{ color: "#1B2A4A" }}>
-            Build the Perfect Gravel Driveway with Excavation <span style={{ color: "#C4883A" }}>Dallas Co.</span>
+            Build the Perfect Gravel Driveway with Des Moines <span style={{ color: "#C4883A" }}>Excavation Co.</span>
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            If you&apos;re looking for a durable and visually appealing driveway solution, Excavation Dallas Co. is your trusted partner for gravel driveway installations across the Dallas area. As neighborhoods continue to grow and expand across Northeast Texas, more homeowners and property developers in both urban areas and surrounding communities like Parma, Lakewood, and Euclid are turning to gravel driveways for their versatility and long-term value.
+            If you&apos;re looking for a durable and visually appealing driveway solution, Des Moines Excavation Co. is your trusted partner for gravel driveway installations across the Des Moines area. As neighborhoods continue to grow and expand across Central Iowa, more homeowners and property developers in both urban areas and surrounding communities like Ankeny, West Des Moines, and Urbandale are turning to gravel driveways for their versatility and long-term value.
           </p>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
             We specialize in custom gravel driveway installations designed to meet your specific needs. Whether you&apos;re upgrading an existing driveway or building a new one for a rural property or suburban home, we provide precision grading, proper drainage solutions, and professional finishes that enhance the functionality and appearance of your property.
@@ -201,11 +201,11 @@ export default function GravelDrivewaysPage() {
             Why Choose a <span style={{ color: "#C4883A" }}>Gravel Driveway?</span>
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            Gravel driveways are an excellent choice for properties across the Greater Dallas area and surrounding communities, including Strongsville, Westlake, Mentor, Solon, Brunswick, and Medina. Here&apos;s why:
+            Gravel driveways are an excellent choice for properties across the Greater Des Moines area and surrounding communities, including Ankeny, West Des Moines, Urbandale, Johnston, Waukee, and Clive. Here&apos;s why:
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
             {[
-              { title: "Durable", desc: "With proper maintenance, gravel driveways can last for decades and handle Northeast Texas\u2019s freeze-thaw cycles better than asphalt." },
+              { title: "Durable", desc: "With proper maintenance, gravel driveways can last for decades and handle Iowa\u2019s freeze-thaw cycles better than asphalt." },
               { title: "Versatile", desc: "Available in a variety of stone types and sizes to match your property\u2019s look and functional needs." },
               { title: "Eco-Friendly", desc: "Gravel is a natural material that promotes water drainage, reducing runoff and standing water issues." },
               { title: "Low Maintenance", desc: "Periodic regrading and occasional top-off keeps a gravel driveway in great shape for years." },
@@ -245,10 +245,10 @@ export default function GravelDrivewaysPage() {
           </div>
 
           <h2 className="text-2xl md:text-3xl font-extrabold mb-6 mt-10" style={{ color: "#1B2A4A" }}>
-            Serving <span style={{ color: "#C4883A" }}>Dallas</span> and Beyond
+            Serving <span style={{ color: "#C4883A" }}>Des Moines</span> and Beyond
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            As Dallas and the surrounding communities continue to grow, more properties in rural areas and developing neighborhoods need reliable gravel driveway installation and repair. Excavation Dallas Co. proudly serves the entire Greater Dallas area, including Parma, Lakewood, Euclid, Strongsville, Westlake, Mentor, Solon, Brunswick, and Medina. No matter the size of your project, we have the equipment and expertise to deliver a driveway that holds up for years to come. Request a free estimate to get started.
+            As Des Moines and the surrounding communities continue to grow, more properties in rural areas and developing neighborhoods need reliable gravel driveway installation and repair. Des Moines Excavation Co. proudly serves the entire Greater Des Moines area, including Ankeny, West Des Moines, Urbandale, Johnston, Waukee, Clive, Altoona, Norwalk, Bondurant, and Indianola. No matter the size of your project, we have the equipment and expertise to deliver a driveway that holds up for years to come. Request a free estimate to get started.
           </p>
         </div>
       </section>
@@ -306,7 +306,7 @@ export default function GravelDrivewaysPage() {
             Gravel Driveway <span style={{ color: "#C4883A" }}>Service Areas</span>
           </h2>
           <p className="text-base mb-8 max-w-xl mx-auto" style={{ color: "#2D2D2D", opacity: 0.7 }}>
-            We install and repair gravel driveways across Dallas and surrounding areas.
+            We install and repair gravel driveways across Des Moines and surrounding areas.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             {serviceAreas.map((city) => (
@@ -338,7 +338,7 @@ export default function GravelDrivewaysPage() {
               >
                 <Image
                   src={s.img}
-                  alt={`${s.name} in Dallas`}
+                  alt={`${s.name} in Des Moines`}
                   fill
                   loading="lazy"
                   style={{ objectFit: "cover" }}

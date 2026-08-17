@@ -98,14 +98,14 @@ export default function ContactPage() {
               {/* Map */}
               <div className="rounded-xl overflow-hidden shadow-sm" style={{ height: "280px" }}>
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d171803.85038478!2d-122.47633315!3d47.6062095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490102c93e83355%3A0x102565466944d59a!2sDallas%2C%20WA!5e0!3m2!1sen!2sus!4v1"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95888.09195882835!2d-93.72928295!3d41.5868353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ee99b33c83e67b%3A0xbb2f1e2aef557c74!2sDes%20Moines%2C%20IA!5e0!3m2!1sen!2sus!4v1"
                   width="100%"
                   height="100%"
                   style={{ border: "none" }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Dallas Excavation Co. service area map"
+                  title="Des Moines Excavation Co. service area map"
                 />
               </div>
             </div>
@@ -130,10 +130,10 @@ export default function ContactPage() {
                   data-activation-value=""
                   data-deactivation-type="neverDeactivate"
                   data-deactivation-value=""
-                  data-form-name="Excavating Company Dallas"
+                  data-form-name="Excavating Company Des Moines"
                   data-layout-iframe-id={`inline-${siteConfig.ghlFormId}`}
                   data-form-id={siteConfig.ghlFormId}
-                  title="Excavating Company Dallas"
+                  title="Excavating Company Des Moines"
                 />
               </div>
             </div>

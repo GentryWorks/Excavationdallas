@@ -28,9 +28,9 @@ const values = [
   },
   {
     emoji: "📍",
-    title: "Dallas Local",
+    title: "Des Moines Local",
     description:
-      "We work in the Greater Dallas area every day. We know the soil conditions, permit requirements, and drainage challenges that come with building in this region.",
+      "We work in the Greater Des Moines area every day. We know the soil conditions, permit requirements, and drainage challenges that come with building in this region.",
   },
   {
     emoji: "✅",
@@ -48,7 +48,7 @@ export default function AboutPage() {
         {/* Background image */}
         <Image
           src={aboutImg}
-          alt="Excavator on a job site in Dallas"
+          alt="Excavator on a job site in Des Moines"
           fill
           fetchPriority="high"
           loading="eager"
@@ -62,10 +62,10 @@ export default function AboutPage() {
         />
         <div className="relative max-w-[1200px] mx-auto px-6 text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-6">
-            Your Dallas <span style={{ color: "#C4883A" }}>Excavation Contractor</span>
+            Your Des Moines <span style={{ color: "#C4883A" }}>Excavation Contractor</span>
           </h1>
           <p className="text-lg text-white opacity-90 max-w-xl mx-auto">
-            Licensed excavation services for homeowners, builders, and developers across the Greater Dallas area.
+            Licensed excavation services for homeowners, builders, and developers across the Greater Des Moines area.
           </p>
         </div>
       </section>
@@ -77,14 +77,14 @@ export default function AboutPage() {
             className="text-2xl md:text-3xl font-extrabold mb-6"
             style={{ color: "#1B2A4A" }}
           >
-            An Excavation Company <span style={{ color: "#C4883A" }}>Dallas Trusts</span>
+            An Excavation Company <span style={{ color: "#C4883A" }}>Des Moines Trusts</span>
           </h2>
 
           <p
             className="text-base leading-relaxed mb-6"
             style={{ color: "#2D2D2D", opacity: 0.85 }}
           >
-            Hiring an excavation contractor in Dallas comes with real stakes. A crew that doesn&apos;t show up on schedule pushes your entire build back. A quote that doubles by the time the job is done kills your budget. And a crew that isn&apos;t careful can damage utility lines, drainage infrastructure, or neighboring property.
+            Hiring an excavation contractor in Des Moines comes with real stakes. A crew that doesn&apos;t show up on schedule pushes your entire build back. A quote that doubles by the time the job is done kills your budget. And a crew that isn&apos;t careful can damage utility lines, drainage infrastructure, or neighboring property.
           </p>
 
           <p
@@ -98,14 +98,14 @@ export default function AboutPage() {
             className="text-base leading-relaxed mb-6"
             style={{ color: "#2D2D2D", opacity: 0.85 }}
           >
-            The Dallas area has its own earthwork challenges. The glacial till and clay-heavy soils across Dallas County hold water and can be unpredictable in wet conditions — Dallas&apos;s rainy season affects every dig and every grading job. Drainage issues in this region are common, and permit requirements vary by municipality. We work in these communities daily and factor all of that in before your estimate is written.
+            The Des Moines area has its own earthwork challenges. The clay-heavy soils across Polk County hold water and can be unpredictable in wet conditions — Iowa&apos;s spring season affects every dig and every grading job. Drainage issues in this region are common, and permit requirements vary by municipality. We work in these communities daily and factor all of that in before your estimate is written.
           </p>
 
           <p
             className="text-base leading-relaxed"
             style={{ color: "#2D2D2D", opacity: 0.85 }}
           >
-            We serve Dallas and the surrounding communities including Bellevue, Redmond, Kirkland, Renton, Shoreline, Burien, Kent, Auburn, Federal Way, and Tacoma. We work with homeowners, custom home builders, general contractors, and developers across the greater Trinity River region. If it involves moving earth in this area, we can help.
+            We serve Des Moines and the surrounding communities including Ankeny, West Des Moines, Urbandale, Johnston, Waukee, Clive, Altoona, Norwalk, Bondurant, and Indianola. We work with homeowners, custom home builders, general contractors, and developers across the greater Central Iowa region. If it involves moving earth in this area, we can help.
           </p>
         </div>
       </section>

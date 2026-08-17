@@ -57,7 +57,7 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "How much does yard grading cost in Dallas?",
+      name: "How much does yard grading cost in Des Moines?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Grading costs depend on the size of the area, how much cut and fill is required, and whether fill material needs to be brought in. A simple drainage correction on a small yard will cost less than a full lot grade on a new construction site. Request a free quote and we'll walk your site, assess the scope, and provide a written estimate — no obligation.",
@@ -121,7 +121,7 @@ const included = [
 
 const faqs = [
   {
-    q: "How much does yard grading cost in Dallas?",
+    q: "How much does yard grading cost in Des Moines?",
     a: "Grading costs depend on the size of the area, how much cut and fill is required, and whether fill material needs to be brought in. A simple drainage correction on a small yard will cost less than a full lot grade on a new construction site. Request a free quote and we&apos;ll walk your site, assess the scope, and provide a written estimate — no obligation.",
   },
   {
@@ -169,7 +169,7 @@ export default function GradingPage() {
             Grading &amp; Sitework
           </h1>
           <p className="text-white opacity-80 text-lg max-w-2xl mb-10 leading-relaxed mx-auto">
-            We handle rough grading, finish grading, drainage correction, and building pad prep for residential and commercial sites across Dallas and Northeast Texas.
+            We handle rough grading, finish grading, drainage correction, and building pad prep for residential and commercial sites across Des Moines and Central Iowa.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link
@@ -188,13 +188,13 @@ export default function GradingPage() {
       <section className="py-20" style={{ backgroundColor: "#ffffff" }}>
         <div className="max-w-[800px] mx-auto px-6">
           <h2 className="text-2xl md:text-3xl font-extrabold mb-6" style={{ color: "#1B2A4A" }}>
-            Expert Grading and Sitework Services in <span style={{ color: "#C4883A" }}>Dallas</span> for Residential and Commercial Projects
+            Expert Grading and Sitework Services in <span style={{ color: "#C4883A" }}>Des Moines</span> for Residential and Commercial Projects
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            Excavation Dallas Co. is your go-to provider for professional grading and sitework services across the Dallas area. Whether you&apos;re preparing a small residential lot or a large-scale commercial development, our team delivers precise, reliable solutions tailored to your project&apos;s unique needs.
+            Des Moines Excavation Co. is your go-to provider for professional grading and sitework services across the Des Moines area. Whether you&apos;re preparing a small residential lot or a large-scale commercial development, our team delivers precise, reliable solutions tailored to your project&apos;s unique needs.
           </p>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            With Dallas and the surrounding communities continuing to grow, property owners in both established neighborhoods and developing areas — including Parma, Lakewood, Euclid, Strongsville, and beyond — trust Excavation Dallas Co. to lay the groundwork for success. From creating level surfaces for new construction to optimizing drainage systems, no job is too big or too small for our experienced team.
+            With Des Moines and the surrounding communities continuing to grow, property owners in both established neighborhoods and developing areas — including Ankeny, West Des Moines, Urbandale, Waukee, and beyond — trust Des Moines Excavation Co. to lay the groundwork for success. From creating level surfaces for new construction to optimizing drainage systems, no job is too big or too small for our experienced team.
           </p>
 
           <h2 className="text-2xl md:text-3xl font-extrabold mb-6 mt-10" style={{ color: "#1B2A4A" }}>
@@ -207,7 +207,7 @@ export default function GradingPage() {
             {[
               { title: "Improved Drainage", desc: "Proper grading prevents water pooling and reduces the risk of flooding around your structure." },
               { title: "Enhanced Stability", desc: "A well-prepared site ensures the structural integrity of your building from the ground up." },
-              { title: "Compliance", desc: "Accurate grading and sitework meet local codes and regulations across Dallas and Dallas County County." },
+              { title: "Compliance", desc: "Accurate grading and sitework meet local codes and regulations across Des Moines and Polk County." },
               { title: "Safety", desc: "Level, stable ground reduces hazards during and after construction for everyone on-site." },
             ].map((item) => (
               <div key={item.title} className="flex items-start gap-3">
@@ -245,10 +245,10 @@ export default function GradingPage() {
           </div>
 
           <h2 className="text-2xl md:text-3xl font-extrabold mb-6 mt-10" style={{ color: "#1B2A4A" }}>
-            Serving <span style={{ color: "#C4883A" }}>Dallas</span> and Beyond
+            Serving <span style={{ color: "#C4883A" }}>Des Moines</span> and Beyond
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            Excavation Dallas Co. proudly serves both residential and commercial clients throughout the Greater Dallas area. Our services extend to surrounding communities including Westlake, Mentor, Solon, Brunswick, and Medina, ensuring that no project is out of reach. Request a free estimate to get started.
+            Des Moines Excavation Co. proudly serves both residential and commercial clients throughout the Greater Des Moines area. Our services extend to surrounding communities including Ankeny, West Des Moines, Urbandale, Johnston, Waukee, Clive, Altoona, Norwalk, Bondurant, and Indianola, ensuring that no project is out of reach. Request a free estimate to get started.
           </p>
         </div>
       </section>
@@ -306,7 +306,7 @@ export default function GradingPage() {
             Grading <span style={{ color: "#C4883A" }}>Service Areas</span>
           </h2>
           <p className="text-base mb-8 max-w-xl mx-auto" style={{ color: "#2D2D2D", opacity: 0.7 }}>
-            We provide grading and sitework services across Dallas and surrounding areas.
+            We provide grading and sitework services across Des Moines and surrounding areas.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             {serviceAreas.map((city) => (
@@ -338,7 +338,7 @@ export default function GradingPage() {
               >
                 <Image
                   src={s.img}
-                  alt={`${s.name} in Dallas`}
+                  alt={`${s.name} in Des Moines`}
                   fill
                   loading="lazy"
                   style={{ objectFit: "cover" }}

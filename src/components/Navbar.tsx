@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/assets/logo-dallas-wide-white.webp";
+import logo from "@/assets/logo-desmoines-wide.webp";
 import { siteConfig } from "@/data/config";
 
 const serviceLinks = [
@@ -49,7 +49,7 @@ export default function Navbar() {
           >
             <Image
               src={logo}
-              alt="Excavation Dallas Co."
+              alt="Des Moines Excavation Co."
               height={45}
               width={0}
               style={{ width: "auto", height: "55px" }}
