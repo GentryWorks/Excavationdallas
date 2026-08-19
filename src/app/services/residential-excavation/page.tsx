@@ -209,7 +209,7 @@ export default function ResidentialExcavationPage() {
                 Des Moines Excavation Co. specializes in providing top-tier residential excavation services for homeowners throughout the Des Moines area. Whether you&apos;re building a new home, adding an extension, or installing a backyard feature, our team has the expertise to handle every aspect of your project with precision and care.
               </p>
               <p className="text-sm leading-relaxed" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-                As Des Moines continues to grow, so do the needs of residential property owners in both established neighborhoods and surrounding communities like Ankeny, West Des Moines, Urbandale, and Johnston. At Des Moines Excavation Co., we&apos;re committed to delivering exceptional excavation services, no matter the size or scope of the job.
+                North Texas's expansive black clay is one of the most challenging soils in the country for residential excavation. It swells when wet, shrinks when dry, and can exert enormous pressure on foundation walls if backfill isn't managed correctly. Proper excavation depth and compaction are critical to foundations that stay stable through North Texas's weather extremes — and we deliver that on every job, no matter the size or scope.
               </p>
             </div>
             <div className="flex-1">
@@ -270,7 +270,7 @@ export default function ResidentialExcavationPage() {
             Serving <span style={{ color: "#C4883A" }}>Des Moines</span> and Beyond
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            Des Moines Excavation Co. proudly serves homeowners across the Greater Des Moines area, including suburban communities and rural properties throughout Central Iowa. From Ankeny to Waukee, Clive to Norwalk — no residential project is too big or small for our team. Request a free estimate to get started.
+            Excavation Dallas Co. serves homeowners and builders across Greater Dallas and the DFW metro — from Dallas, Tarrant, Collin, and Denton counties and beyond. Whether the project is in a dense suburban neighborhood or a rural township, we provide a written estimate after a free site visit. Request a free estimate to get started.
           </p>
         </div>
       </section>

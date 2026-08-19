@@ -194,7 +194,7 @@ export default function GradingPage() {
             Des Moines Excavation Co. is your go-to provider for professional grading and sitework services across the Des Moines area. Whether you&apos;re preparing a small residential lot or a large-scale commercial development, our team delivers precise, reliable solutions tailored to your project&apos;s unique needs.
           </p>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            With Des Moines and the surrounding communities continuing to grow, property owners in both established neighborhoods and developing areas — including Ankeny, West Des Moines, Urbandale, Waukee, and beyond — trust Des Moines Excavation Co. to lay the groundwork for success. From creating level surfaces for new construction to optimizing drainage systems, no job is too big or too small for our experienced team.
+            Dallas is built on some of the most challenging soil in the country. The highly expansive black clay — montmorillonite — shrinks in drought and swells dramatically in rain, creating constant movement that affects drainage patterns, foundation stability, and every phase of sitework. Proper grading here isn't just about aesthetics — it's essential to controlling where water goes when North Texas gets one of its heavy rain events. We work on DFW sites every day and bring that local soil knowledge to every project.
           </p>
 
           <h2 className="text-2xl md:text-3xl font-extrabold mb-6 mt-10" style={{ color: "#1B2A4A" }}>
@@ -207,7 +207,7 @@ export default function GradingPage() {
             {[
               { title: "Improved Drainage", desc: "Proper grading prevents water pooling and reduces the risk of flooding around your structure." },
               { title: "Enhanced Stability", desc: "A well-prepared site ensures the structural integrity of your building from the ground up." },
-              { title: "Compliance", desc: "Accurate grading and sitework meet local codes and regulations across Des Moines and Polk County." },
+              { title: "Compliance", desc: "Accurate grading and sitework meet local codes and regulations across Dallas and Dallas County." },
               { title: "Safety", desc: "Level, stable ground reduces hazards during and after construction for everyone on-site." },
             ].map((item) => (
               <div key={item.title} className="flex items-start gap-3">
@@ -248,7 +248,7 @@ export default function GradingPage() {
             Serving <span style={{ color: "#C4883A" }}>Des Moines</span> and Beyond
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            Des Moines Excavation Co. proudly serves both residential and commercial clients throughout the Greater Des Moines area. Our services extend to surrounding communities including Ankeny, West Des Moines, Urbandale, Johnston, Waukee, Clive, Altoona, Norwalk, Bondurant, and Indianola, ensuring that no project is out of reach. Request a free estimate to get started.
+            Excavation Dallas Co. serves residential and commercial clients throughout Greater Dallas and the DFW metro — from Dallas County out to Tarrant, Collin, and Denton counties. Whether you need drainage correction on a residential lot in Frisco or building pad prep on a commercial site in Arlington, we provide a written estimate after a free site visit. Request a free estimate to get started.
           </p>
         </div>
       </section>

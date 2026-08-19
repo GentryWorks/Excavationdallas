@@ -68,7 +68,7 @@ const faqSchema = {
       name: "Do I need a permit to demolish a house in Des Moines?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. A demolition permit is required for any residential structure demolition in Des Moines and Polk County. Surrounding municipalities like Ankeny, West Des Moines, and Urbandale have their own permit processes. We handle permit applications directly — you don't need to navigate that paperwork yourself.",
+        text: "Yes. A demolition permit is required for any residential structure demolition in Dallas and Dallas County. Surrounding municipalities like Plano, Garland, and Irving have their own permit processes. We handle permit applications directly — you don't need to navigate that paperwork yourself.",
       },
     },
     {
@@ -198,10 +198,10 @@ export default function DemolitionPage() {
             Serving the Greater <span style={{ color: "#C4883A" }}>Des Moines</span> Metro Area
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            Navigating the different permitting processes, regulations, and city codes across Des Moines and Polk County — as well as surrounding municipalities — requires a local expert. Des Moines Excavation Co. is fully licensed and insured to operate across the entire metro area.
+            Navigating the different permitting processes, regulations, and city codes across Dallas and Dallas County — as well as surrounding municipalities throughout the DFW metro — requires a local expert. Excavation Dallas Co. is fully licensed and insured to operate across the entire metro area.
           </p>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            We proudly bring our precision demolition services to your neighborhood, including Des Moines, Ankeny, West Des Moines, Urbandale, Johnston, Waukee, Clive, Altoona, Norwalk, Bondurant, and Indianola.
+            We serve residential demolition clients across Greater Dallas and the DFW metro — including Plano, Garland, Irving, Arlington, Mesquite, and the surrounding communities throughout Dallas and Tarrant counties.
           </p>
 
           <h2 className="text-2xl md:text-3xl font-extrabold mb-6 mt-10" style={{ color: "#1B2A4A" }}>

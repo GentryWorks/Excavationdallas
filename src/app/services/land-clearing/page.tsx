@@ -93,7 +93,7 @@ const faqSchema = {
       name: "Do I need a permit to clear trees in Des Moines?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Permit requirements vary by municipality. Some Des Moines-area jurisdictions require tree removal permits or tree preservation plans depending on tree size and species. Ankeny, West Des Moines, and Urbandale each have their own tree ordinances. We flag any known requirements for your area during the estimate.",
+        text: "Permit requirements vary by municipality. Some Dallas-area jurisdictions require tree removal permits or tree preservation plans depending on tree size and species. Plano, McKinney, and Frisco each have their own tree ordinances. We flag any known requirements for your area during the estimate.",
       },
     },
   ],
@@ -197,7 +197,7 @@ export default function LandClearingPage() {
                 Des Moines Excavation Co. offers professional land clearing services for residential and commercial projects throughout the Des Moines area. Whether you&apos;re preparing a lot for new construction, expanding your property, or clearing space for landscaping, we provide efficient and reliable solutions tailored to your project.
               </p>
               <p className="text-sm leading-relaxed" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-                From densely wooded lots to smaller spaces in suburban or rural areas, we have the equipment and expertise to handle projects of all sizes. Serving communities across Central Iowa — including Ankeny, West Des Moines, Urbandale, Johnston, and beyond — Des Moines Excavation Co. is your trusted partner for thorough and environmentally conscious land clearing.
+                From densely wooded lots to smaller spaces in suburban or rural areas, we have the equipment and expertise to handle projects of all sizes. North Texas's dense black clay makes stump and root extraction more involved than in sandier soils — root systems bind in clay, and incomplete removal under foundations or slabs causes settling problems. We serve communities across Dallas, Tarrant, Collin, and Denton counties.
               </p>
             </div>
             <div className="flex-1">
@@ -253,7 +253,7 @@ export default function LandClearingPage() {
             Serving <span style={{ color: "#C4883A" }}>Des Moines</span> and Beyond
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            Des Moines Excavation Co. is proud to serve the Greater Des Moines area, including growing neighborhoods and rural communities like Ankeny, West Des Moines, Urbandale, Johnston, Waukee, Clive, Altoona, Norwalk, Bondurant, and Indianola. No matter where your property is located or the size of the job, we&apos;re equipped to handle your land clearing needs. Request a free estimate to get started.
+            Excavation Dallas Co. serves the Greater Dallas area and surrounding DFW communities — from Dallas County out to Tarrant, Collin, and Denton counties. Whether your project is a suburban lot in Frisco or a multi-acre parcel in rural Ellis County, we have the equipment and crew to handle it. Request a free estimate to get started.
           </p>
         </div>
       </section>

@@ -96,7 +96,7 @@ const faqSchema = {
       name: "Do I need a permit to remove a pool in Des Moines?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Most Des Moines-area municipalities require a permit for pool removal, including Polk County, Ankeny, West Des Moines, and Urbandale. Requirements vary by city. We help navigate local permit requirements and coordinate with your contractor to keep the project moving.",
+        text: "Most Dallas-area municipalities require a permit for pool removal — requirements vary by city across Dallas County and surrounding DFW communities. We help navigate local permit requirements and coordinate with your contractor to keep the project moving.",
       },
     },
     {
@@ -312,7 +312,7 @@ export default function PoolExcavationPage() {
             Permits &amp; <span style={{ color: "#C4883A" }}>Compliance</span>
           </h2>
           <p className="text-sm leading-relaxed" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            Most Des Moines-area cities require a permit for pool removal — including Polk County, Ankeny, West Des Moines, Urbandale, and Johnston. Requirements differ by municipality, so don&apos;t assume what applied to a neighbor applies to you. We help you understand what&apos;s required and coordinate with your contractor so nothing holds up the project. For new pool excavation, permits are typically pulled by your pool builder. We work directly with them to make sure our dig aligns with the approved plans.
+            Most Dallas-area cities require a permit for pool removal — requirements differ by municipality across Dallas County and the surrounding DFW area, so don&apos;t assume what applied to a neighbor applies to you. We help you understand what&apos;s required and coordinate with your contractor so nothing holds up the project. For new pool excavation, permits are typically pulled by your pool builder. We work directly with them to make sure our dig aligns with the approved plans.
           </p>
         </div>
       </section>
